@@ -1,7 +1,7 @@
 #!/bin/bash
 
-VENDOR=LeEco
-DEVICE=X3
+VENDOR=amoi
+DEVICE=L861
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 
