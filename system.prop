@@ -1,5 +1,5 @@
 #
-# system.prop for LeEco Le 1s
+# system.prop for AMOI L861
 #
 # MTK, Infinity, 20090720 {
 wifi.interface=wlan0
@@ -56,7 +56,9 @@ persist.sys.button_jack_profile=volume
 persist.sys.button_jack_switch=0
 
 #default timezone
-persist.sys.defaulttimezone=Europe/Warsaw
+persist.sys.defaulttimezone=Europe/Rome
+
+qemu.hw.mainkeys=1
 
 ro.kernel.zio=38,108,105,16
 #ro.kernel.qemu=1
@@ -66,7 +68,7 @@ ro.kernel.zio=38,108,105,16
 # Disable dirty region for Mali
 debug.hwui.render_dirty_regions=false
 
-ro.sf.lcd_density=480
+ro.sf.lcd_density=640
 
 # performance
 ro.mtk_perf_simple_start_win=1
@@ -86,8 +88,8 @@ dalvik.vm.heapsize=512m
 ro.mediatek.chip_ver=S01
 ro.mediatek.version.release=alps-mp-m0.mp11-V1_vz6795.lwt.m
 ro.mediatek.platform=MT6795
-persist.radio.multisim.config=dsds
-persist.gemini.sim_num=2
+persist.radio.multisim.config=ss
+persist.gemini.sim_num=1
 ro.gemini.smart_sim_switch=false
 ril.specific.sm_cause=0
 bgw.current3gband=0
@@ -96,7 +98,7 @@ ro.mtk_cam_lomo_support=1
 ro.btstack=blueangel
 ro.sf.hwrotation=0
 curlockscreen=0
-ro.mediatek.gemini_support=true
+ro.mediatek.gemini_support=false
 drm.service.enabled=true
 ril.first.md=1
 ril.flightmode.poweroffMD=1
@@ -110,7 +112,7 @@ ro.mediatek.version.sdk=4
 bt.profiles.dun.enabled=1
 ro.mtk_gemini_support=1
 persist.radio.gemini_support=1
-ril.current.share_modem=2
+ril.current.share_modem=1
 #ro.mtk_audenh_support=1
 ro.mtk_lossless_bt_audio=1
 ro.mtk_bessurround_support=1
